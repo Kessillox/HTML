@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contacto</title>
+</head>
+<body>
+	<header>
+		<nav> <!-- Barra de navegación -->
+			<a href="../../index.html">Inicio</a> | <!-- Enlace de navegación -->
+			<a href="tema.html">Kenpo</a> | <!-- Enlace de navegación -->
+			<a href="form.html">Contacto</a> <!-- Enlace de navegación -->
+			<a href="form2.html">Formulario 2</a> <!-- Enlace de navegación -->
+		</nav>
+	</header>
+	<section>
+		<h2>Contáctate con nosotros</h2>
+		<form method="post" action="submit">
+			<label for="nombre"> ¿Cómo te llamas?</label>
+			</br>
+			<br>
+			<input type="text" name="nombre" id="nombre" required="true">
+			<br>
+			<br>
+			<label for="email"> ¿Cuál es tu correo electrónico?</label>
+			</br>
+			<br>
+			<input type="email" name="email" id="email" placeholder="hola@algo.cl" required>
+			<br>
+			<br>
+			<label for="password">Indica una constraseña</label>
+			<br>
+			<input type="password" name="password" id="password" placeholder="Ingresa tu contraseña" required>
+			<br>
+			<br>
+			<label>Selecciona tu género:</label>
+			<input type="radio" name="genero" id="masculino" value="masculino" required>
+			<label for="masculino">Masculino</label>
+			<input type="radio" name="genero" id="femenino" value="femenino" required>
+			<label for="femenino">Femenino</label>
+			<br>
+			<br>
+			<label for="fecha_nac">Dinos cuándo naciste</label>
+			<br>
+			<input type="date" name="fecha_nac" id="fecha_nac" required>
+			<br>
+			<br>
+			<label for="edad">Indicanos tu edad</label>
+			<br>
+			<input type="number" name="edad" id="edad" min="0" max="120" required>
+			<br>
+			<br>
+			<label for="enfermedad">Indicanos si tienes alguna patología</label>
+			<br>
+			<input type="checkbox" name="enfermedad" id="enfermedad" value="si" required>
+			<label for="enfermedad">Sí, tengo alguna patología</label>
+			<br>
+			<label for="patologia">Si la respuesta anterior fue sí, indicanos cuáles</label>
+			<br>
+			<textarea name="patologia" id="patologia" rows="4" cols="30" placeholder="Escribe aquí..."></textarea>
+			<br>
+			<br>
+			<label for="color">Indicanos tu color favorito</label>
+			<br>
+			<select name="color" id="color">
+				<option value="azul">Azul</option>
+				<option value="rojo">Rojo</option>
+				<option value="verde">Verde</option>
+				<option value="amarillo">Amarillo</option>
+			</select>
+			<br>
+			<br>
+			<button type="submit">Enviar</button>
+			
+		</form>
+	</section>
+</body>
+</html>
