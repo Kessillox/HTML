@@ -1,0 +1,28 @@
+/*  este es un comentario */ 
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #d9c2c2;
+        }
+        header, section, footer {
+            background: #129ba8;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(28, 29, 30, 0.1);
+        }
+        nav a {
+            margin-right: 15px;
+            text-decoration: 10px;
+            color: #090c01;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align:center;
+            font-size: 0.9em;
+            color: #020000;
+        }   
